@@ -50,13 +50,13 @@ starting-a-business/
 │   ├── competency6_resource_planning.md
 │   └── competency7_starting_and_managing_a_business.md
 └── assets/
-    ├── competency1_slide.png
-    ├── competency2_slide.png
-    ├── competency3_slide.png
-    ├── competency4_slide.png
-    ├── competency5_slide.png
-    ├── competency6_slide.png
-    └── competency7_slide.png
+    ├── competency1_tools.md
+    ├── competency2_tools.md
+    ├── competency3_tools.md
+    ├── competency4_tools.md
+    ├── competency5_tools.md
+    ├── competency6_tools.md
+    └── competency7_tools.md
 ```
 
 ### Repository Overview
