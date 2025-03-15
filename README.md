@@ -95,6 +95,8 @@ Organize your business’s activities, outline material and financial resources,
 ### Competency 7: Starting and Managing a Business
 Learn about relevant laws and regulations, acquire necessary permits and licenses, and set up goals for the official start and ongoing management of your business.
 
+---
+
 
 ## How to Use This Repository
 
@@ -128,7 +130,7 @@ Or download the ZIP file from GitHub and extract it locally.
 - Each competency includes further reading, links, and resources.
 - Use them to deepen your understanding of entrepreneurship, marketing, finance, and more.
 
-
+---
 
 ## Happy Learning & Best of Luck!
 
