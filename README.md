@@ -72,10 +72,67 @@ This repository contains the following structure:
 
 ---
 
+## Competencies
+
+### Competency 1: Entrepreneurial Profile
+Learn about the characteristics and mindset of successful entrepreneurs, self-assess your readiness, and confirm your decision to start a business.
+
+### Competency 2: Business Plan
+Draft your mission and vision, create a Business Model Canvas, and outline your value proposition for potential customer segments.
+
+### Competency 3: Technological Tools
+Discover how to research information online effectively, manage data in Word/Excel (or Google Docs/Sheets), and communicate with customers.
+
+### Competency 4: Market Study
+Conduct secondary and primary research on your market, learn about the PESTE framework, and analyze competitors.
+
+### Competency 5: Marketing Products or Services
+Develop a marketing strategy, plan prospecting activities, and refine your brand, sales pitch, and presentation skills.
+
+### Competency 6: Resource Planning
+Organize your business’s activities, outline material and financial resources, and draft financial statements to secure financing.
+
+### Competency 7: Starting and Managing a Business
+Learn about relevant laws and regulations, acquire necessary permits and licenses, and set up goals for the official start and ongoing management of your business.
+
+
 ## How to Use This Repository
 
-### Clone or Download the Repository:
+### Clone or Download the Repository
 
 Clone the repository using Git:
+
+```bash
+git clone https://github.com/LixiaEchoTang/Starting-A-Business.git
+```
+Or download the ZIP file from GitHub and extract it locally.
+
+### Explore the docs/ Folder
+
+- Each competency has its own Markdown file.
+- Start with **Competency 1** if you’re completely new to entrepreneurship.
+- Follow the steps, read the goals, and complete the suggested exercises.
+
+###  Refer to the assets/ Folder
+
+- You’ll find slide images and any additional diagrams or visuals used throughout the documentation.
+- Embed or view these images to supplement your learning.
+
+###  Adapt the Material
+
+- The competencies are designed to be a framework.
+- Tailor them to fit your specific business idea, whether it’s a dog walking service or another small business concept.
+
+###  Keep Learning
+
+- Each competency includes further reading, links, and resources.
+- Use them to deepen your understanding of entrepreneurship, marketing, finance, and more.
+
+
+
+## Happy Learning & Best of Luck!
+
+We hope this repository helps you confidently plan, launch, and manage your new venture. If you have any questions or feedback, feel free to open an issue or reach out to us directly.
+
 
 
