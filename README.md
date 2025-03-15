@@ -32,8 +32,6 @@ Each competency is explained in detail with goals, key concepts, exercises, and 
   - [Competency 5: Marketing Products or Services](docs/competency5_marketing_products_or_services.md)  
   - [Competency 6: Resource Planning](docs/competency6_resource_planning.md)  
   - [Competency 7: Starting and Managing a Business](docs/competency7_starting_and_managing_a_business.md)  
-- [Contributing](#contributing)  
-- [License](#license)
 
 ---
 
@@ -72,32 +70,6 @@ This repository contains the following structure:
 
 ---
 
-## Competencies
-
-### Competency 1: Entrepreneurial Profile
-Learn about the characteristics and mindset of successful entrepreneurs, self-assess your readiness, and confirm your decision to start a business.
-
-### Competency 2: Business Plan
-Draft your mission and vision, create a Business Model Canvas, and outline your value proposition for potential customer segments.
-
-### Competency 3: Technological Tools
-Discover how to research information online effectively, manage data in Word/Excel (or Google Docs/Sheets), and communicate with customers.
-
-### Competency 4: Market Study
-Conduct secondary and primary research on your market, learn about the PESTE framework, and analyze competitors.
-
-### Competency 5: Marketing Products or Services
-Develop a marketing strategy, plan prospecting activities, and refine your brand, sales pitch, and presentation skills.
-
-### Competency 6: Resource Planning
-Organize your business’s activities, outline material and financial resources, and draft financial statements to secure financing.
-
-### Competency 7: Starting and Managing a Business
-Learn about relevant laws and regulations, acquire necessary permits and licenses, and set up goals for the official start and ongoing management of your business.
-
----
-
-
 ## How to Use This Repository
 
 ### Clone or Download the Repository
@@ -129,6 +101,31 @@ Or download the ZIP file from GitHub and extract it locally.
 
 - Each competency includes further reading, links, and resources.
 - Use them to deepen your understanding of entrepreneurship, marketing, finance, and more.
+
+---
+
+## Competencies
+
+### Competency 1: Entrepreneurial Profile
+Learn about the characteristics and mindset of successful entrepreneurs, self-assess your readiness, and confirm your decision to start a business.
+
+### Competency 2: Business Plan
+Draft your mission and vision, create a Business Model Canvas, and outline your value proposition for potential customer segments.
+
+### Competency 3: Technological Tools
+Discover how to research information online effectively, manage data in Word/Excel (or Google Docs/Sheets), and communicate with customers.
+
+### Competency 4: Market Study
+Conduct secondary and primary research on your market, learn about the PESTE framework, and analyze competitors.
+
+### Competency 5: Marketing Products or Services
+Develop a marketing strategy, plan prospecting activities, and refine your brand, sales pitch, and presentation skills.
+
+### Competency 6: Resource Planning
+Organize your business’s activities, outline material and financial resources, and draft financial statements to secure financing.
+
+### Competency 7: Starting and Managing a Business
+Learn about relevant laws and regulations, acquire necessary permits and licenses, and set up goals for the official start and ongoing management of your business.
 
 ---
 
