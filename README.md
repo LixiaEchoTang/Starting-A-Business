@@ -135,6 +135,7 @@ We hope this repository helps you confidently plan, launch, and manage your new 
 
 ---
 
+```mermaid
 flowchart TD
     AM[Attention Management<br>(决定输入如何形塑思维模式)]
     MM[Mental Models<br>(决定你能感知的机会)]
@@ -154,9 +155,10 @@ flowchart TD
     RL --> CH
     SA --> CH
     ID --> CH
-
+```
 ---
 
+```mermaid
 flowchart LR
     CH[Cohesive Whole]
     MM[Mental Models]
@@ -176,6 +178,6 @@ flowchart LR
     CH --- RL
     CH --- SA
     CH --- ID
-
+```
 ---
 
