@@ -133,5 +133,25 @@ Learn about relevant laws and regulations, acquire necessary permits and license
 
 We hope this repository helps you confidently plan, launch, and manage your new venture. If you have any questions or feedback, feel free to open an issue or reach out to us directly.
 
+---
+```mermaid
+flowchart LR
+    CH[Cohesive Whole<br>整体]
+    MM[Mental Models<br>心智模型]
+    AM[Attention Management<br>注意力管理]
+    DM[Decision-Making<br>决策过程]
+    IA[Implementation Approach<br>实施方式]
+    SY[Systems<br>系统]
+    RL[Relationships<br>人际关系]
+    SA[Success Approach<br>成功方法]
+    ID[Identity<br>身份认同]
 
-
+    CH --- MM
+    CH --- AM
+    CH --- DM
+    CH --- IA
+    CH --- SY
+    CH --- RL
+    CH --- SA
+    CH --- ID
+```
