@@ -309,45 +309,55 @@ mindmap
 ---
 
 ```mermaid
-mindmap
-  %% 先定义样式
+flowchart TB
   classDef level1 fill:#C7CEEA,stroke:#333,stroke-width:1px,color:#000
   classDef level2 fill:#B5EAD7,stroke:#333,stroke-width:1px,color:#000
   classDef level3 fill:#FFDAC1,stroke:#333,stroke-width:1px,color:#000
 
-  %% 根节点 (PDCA Cycle)
-  root((PDCA Cycle<br>PDCA 循环)):::level1
+  %% 第一层 (Plan, Do, Check, Act)
+  P["Plan – Identify & Reflect<br/>计划 – 识别与反思"]
+  D["Do – Implement Strategies<br/>执行 – 实施策略"]
+  C["Check – Evaluate & Assess<br/>检查 – 评估与检视"]
+  A["Act – Adjust & Internalize<br/>行动 – 调整与内化"]
 
-    %% 第一层: Plan
-    Plan(Plan – Identify & Reflect<br>计划 – 识别与反思):::level1
-      MentalModelUpgrade(Mental Model Upgrade<br>心智模型升级):::level2
-        ReflectionTools(Reflection Tools<br>反思工具):::level3
-          Inversion(逆向思维):::level3
-        DeliberateDiscomfort(Deliberate Discomfort<br>主动寻求不适感):::level3
+  class P,D,C,A level1
 
-    %% 第一层: Do
-    Do(Do – Implement Strategies<br>执行 – 实施策略):::level1
-      AttentionManagement(Attention Management<br>注意力管理):::level2
-        RadicalSelectivity(Radical Selectivity<br>极端专注策略):::level3
-      DecisionMaking(Decision Making Deconstructed<br>决策解构):::level2
-        Rule72(72-hour rule, second-order thinking, inversion):::level3
-        Example("Instead of asking “How do I become successful?”\nask “What’s causing me to fail?”"):::level3
-      ImplementationGap(The Implementation Gap<br>执行差距):::level2
-        TinyActions(Tiny Consistent Actions<br>持续的小动作):::level3
+  %% subgraph Plan
+  subgraph SGPlan[Plan Details]
+    M1["Mental Model Upgrade<br/>心智模型升级"]:::level2
+    M2["Reflection Tools<br/>反思工具"]:::level3
+    M3["Deliberate Discomfort<br/>主动寻求不适感"]:::level3
+  end
+  P --> SGPlan
 
-    %% 第一层: Check
-    Check(Check – Evaluate & Assess<br>检查 – 评估与检视):::level1
-      SystemDesign(System Design<br>系统设计):::level2
-        EnvironmentCreation(Environment Creation<br>环境构建):::level3
-      Relationship(Relationship Dynamics<br>人际关系动态):::level2
-        PeerSelection(Intentional Peer Group Selection<br>有意识地选择同行群体):::level3
+  %% subgraph Do
+  subgraph SGDo[Do Details]
+    D1["Attention Management<br/>注意力管理"]:::level2
+    D2["Decision Making Deconstructed<br/>决策解构"]:::level2
+      D2a["72-hour rule, second-order thinking, inversion"]:::level3
+      D2b["Example: Instead of 'How do I become successful?'\nask 'What’s causing me to fail?'"]:::level3
+    D3["Implementation Gap<br/>执行差距"]:::level2
+      D3a["Tiny Consistent Actions<br/>持续的小动作"]:::level3
+  end
+  D --> SGDo
 
-    %% 第一层: Act
-    Act(Act – Adjust & Internalize<br>行动 – 调整与内化):::level1
-      SuccessParadox(The Success Paradox<br>成功悖论):::level2
-        KeyInsights(Key Insights<br>关键洞见):::level3
-      IdentityTransformation(Identity-Based Transformation<br>基于身份的转变):::level2
-        SelfPerception(Shift in Self-Perception<br>自我认知转变):::level3
+  %% subgraph Check
+  subgraph SGCheck[Check Details]
+    C1["System Design<br/>系统设计"]:::level2
+      C1a["Environment Creation<br/>环境构建"]:::level3
+    C2["Relationship Dynamics<br/>人际关系动态"]:::level2
+      C2a["Intentional Peer Group Selection<br/>有意识地选择同行群体"]:::level3
+  end
+  C --> SGCheck
+
+  %% subgraph Act
+  subgraph SGAct[Act Details]
+    A1["The Success Paradox<br/>成功悖论"]:::level2
+      A1a["Key Insights<br/>关键洞见"]:::level3
+    A2["Identity-Based Transformation<br/>基于身份的转变"]:::level2
+      A2a["Shift in Self-Perception<br/>自我认知转变"]:::level3
+  end
+  A --> SGAct
 ```
 
 ---
