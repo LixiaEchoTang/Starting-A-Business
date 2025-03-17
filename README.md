@@ -178,3 +178,68 @@ flowchart LR
     
     A --> P
 ```
+
+---
+
+```mermaid
+flowchart TB
+    %% 定义中心节点
+    PDCA(("**PDCA Cycle**  
+*(Plan-Do-Check-Act)*"))
+
+    %% 定义四大阶段的父节点
+    Plan["**Plan**<br/>计划 – 识别与反思"]
+    Do["**Do**<br/>执行 – 实施策略"]
+    Check["**Check**<br/>检查 – 评估与检视"]
+    Act["**Act**<br/>行动 – 调整与内化"]
+
+    %% 将中心节点与四大阶段相连
+    PDCA --- Plan
+    PDCA --- Do
+    PDCA --- Check
+    PDCA --- Act
+
+    %% 定义并连接“Plan”阶段的子要点
+    subgraph Plan_Details
+        direction TB
+        P1["Mental Model Upgrade<br/>(心智模型升级)"]
+        P2["Reflection Tools:<br/>- Inversion (逆向思维)"]
+        P3["Deliberate Discomfort<br/>(主动寻求不适感)"]
+    end
+
+    Plan -- Details --> P1
+    Plan -- Details --> P2
+    Plan -- Details --> P3
+
+    %% 定义并连接“Do”阶段的子要点
+    subgraph Do_Details
+        direction TB
+        D1["Attention Management<br/>(注意力管理)"]
+        D2["Decision Making Deconstructed<br/>(决策解构)"]
+        D3["The Implementation Gap<br/>(执行差距)"]
+    end
+
+    Do -- Details --> D1
+    Do -- Details --> D2
+    Do -- Details --> D3
+
+    %% 定义并连接“Check”阶段的子要点
+    subgraph Check_Details
+        direction TB
+        C1["System Design<br/>(系统设计)"]
+        C2["Relationship Dynamics<br/>(人际关系动态)"]
+    end
+
+    Check -- Details --> C1
+    Check -- Details --> C2
+
+    %% 定义并连接“Act”阶段的子要点
+    subgraph Act_Details
+        direction TB
+        A1["The Success Paradox<br/>(成功悖论)"]
+        A2["Identity-Based Transformation<br/>(基于身份的转变)"]
+    end
+
+    Act -- Details --> A1
+    Act -- Details --> A2
+```
