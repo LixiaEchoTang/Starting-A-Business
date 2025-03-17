@@ -160,13 +160,21 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    P(Plan<br/>- Identify what you want to change<br/>- Define the steps you need to take<br/>- Understand the risk of the change<br/>- Predict the results of the change)
-    D(Do<br/>- Implement the changes you have verified<br/>- Update the standard operating procedures<br/>- Ensure everyone’s working to the new standards)
-    C(Check<br/>- Analyze the results of the trial<br/>- Verify that you have improved the process<br/>- Consider implementing it in a broader scale)
-    A(Act<br/>- Implement the changes you have verified<br/>- Update the standard operating procedures<br/>- Ensure everyone’s working to the new standards)
-
-    P --> D
-    D --> C
-    C --> A
+    P["**Plan<br/>(计划 – 识别与反思)**  
+    - Mental Model Upgrade (心智模型升级)  
+    - Reflection Tools (Inversion 逆向思维)  
+    - Deliberate Discomfort (主动寻求不适感)"] --> D["**Do<br/>(执行 – 实施策略)**  
+    - Attention Management (注意力管理)  
+    - Decision Making Deconstructed (决策解构)  
+    - The Implementation Gap (执行差距)"]
+    
+    D --> C["**Check<br/>(检查 – 评估与检视)**  
+    - System Design (系统设计)  
+    - Relationship Dynamics (人际关系动态)"]
+    
+    C --> A["**Act<br/>(行动 – 调整与内化)**  
+    - The Success Paradox (成功悖论)  
+    - Identity-Based Transformation (基于身份的转变)"]
+    
     A --> P
 ```
