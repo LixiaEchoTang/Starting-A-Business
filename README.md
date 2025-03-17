@@ -133,51 +133,5 @@ Learn about relevant laws and regulations, acquire necessary permits and license
 
 We hope this repository helps you confidently plan, launch, and manage your new venture. If you have any questions or feedback, feel free to open an issue or reach out to us directly.
 
----
 
-```mermaid
-flowchart TD
-    AM[Attention Management<br>(决定输入如何形塑思维模式)]
-    MM[Mental Models<br>(决定你能感知的机会)]
-    DM[Decision-making<br>(决定你走的路径)]
-    IA[Implementation Approach<br>(决定知识是否转化为变革)]
-    SY[Systems<br>(决定变化是否持久)]
-    RL[Relationships<br>(决定这一切发生的背景)]
-    SA[Success Approach<br>(决定最终的轨迹)]
-    ID[Identity<br>(决定是否真实且可持续)]
-    CH[Cohesive Whole]
-
-    AM --> MM
-    MM --> CH
-    DM --> CH
-    IA --> CH
-    SY --> CH
-    RL --> CH
-    SA --> CH
-    ID --> CH
-```
----
-
-```mermaid
-flowchart LR
-    CH[Cohesive Whole]
-    MM[Mental Models]
-    AM[Attention Management]
-    DM[Decision-making]
-    IA[Implementation Approach]
-    SY[Systems]
-    RL[Relationships]
-    SA[Success Approach]
-    ID[Identity]
-
-    CH --- MM
-    CH --- AM
-    CH --- DM
-    CH --- IA
-    CH --- SY
-    CH --- RL
-    CH --- SA
-    CH --- ID
-```
----
 
