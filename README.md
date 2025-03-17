@@ -315,9 +315,6 @@ mindmap
     Plan(Plan)
       %% 第二层
       MentalModelUpgrade(01 Mental Model Upgrade<br>心智模型升级)
-        %% 第三层
-        ReflectionTools(Reflection Tools<br>反思工具)
-        DeliberateDiscomfort(Deliberate Discomfort<br>主动寻求不适感)
 
     Do(Do)
       AttentionManagement(02 Attention Management<br>注意力管理)
