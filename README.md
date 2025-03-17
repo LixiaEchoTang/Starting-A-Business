@@ -243,3 +243,30 @@ flowchart TB
     Act -- Details --> A1
     Act -- Details --> A2
 ```
+
+---
+
+```mermaid
+mindmap
+  root((Core Concept<br>核心概念))
+    %% 第一层
+    Level1A(First Level A)
+      %% 第二层
+      Level2A1(Second Level A1)
+        %% 第三层
+        Level3A1a(Third Level A1a)
+        Level3A1b(Third Level A1b)
+      Level2A2(Second Level A2)
+        Level3A2a(Third Level A2a)
+
+    Level1B(First Level B)
+      Level2B1(Second Level B1)
+      Level2B2(Second Level B2)
+        Level3B2a(Third Level B2a)
+        Level3B2b(Third Level B2b)
+
+    Level1C(First Level C)
+      Level2C1(Second Level C1)
+      Level2C2(Second Level C2)
+        Level3C2a(Third Level C2a)
+```
