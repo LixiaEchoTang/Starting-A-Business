@@ -309,7 +309,7 @@ mindmap
 ---
 
 ```mermaid
-flowchart TB
+flowchart LR
   classDef level1 fill:#C7CEEA,stroke:#333,stroke-width:1px,color:#000
   classDef level2 fill:#B5EAD7,stroke:#333,stroke-width:1px,color:#000
   classDef level3 fill:#FFDAC1,stroke:#333,stroke-width:1px,color:#000
