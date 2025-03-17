@@ -275,36 +275,34 @@ mindmap
 
 ```mermaid
 mindmap
-  root((PDCA Mindmap<br>PDCA 循环思维导图))
+  root((PDCA Cycle<br>PDCA 循环))
+    %% 第一层
+    Plan(Plan – Identify & Reflect<br>计划 – 识别与反思)
+      %% 第二层
+      MentalModelUpgrade(Mental Model Upgrade<br>心智模型升级)
+        %% 第三层
+        ReflectionTools(Reflection Tools<br>反思工具)
+          Inversion(逆向思维)
+        DeliberateDiscomfort(Deliberate Discomfort<br>主动寻求不适感)
 
-  %% 第一层：Plan
-  Plan(Plan – Identify & Reflect<br>计划 – 识别与反思)
-    "Mental Model Upgrade (心智模型升级)"
-      "Reflection Tools (反思工具)"
-        "Inversion (逆向思维)"
-      "Deliberate Discomfort (主动寻求不适感)"
+    Do(Do – Implement Strategies<br>执行 – 实施策略)
+      AttentionManagement(Attention Management<br>注意力管理)
+        RadicalSelectivity(Radical Selectivity<br>极端专注策略)
+      DecisionMaking(Decision Making Deconstructed<br>决策解构)
+        Rule72(72-hour rule, second-order thinking, inversion)
+        Example(Instead of asking “How do I become successful?”\nask “What’s causing me to fail?”)
+      ImplementationGap(The Implementation Gap<br>执行差距)
+        TinyActions(Tiny Consistent Actions<br>持续的小动作)
 
-  %% 第一层：Do
-  Do(Do – Implement Strategies<br>执行 – 实施策略)
-    "Attention Management (注意力管理)"
-      "Radical Selectivity (极端专注策略)"
-    "Decision Making Deconstructed (决策解构)"
-      "72-hour rule, second-order thinking, inversion"
-      "Example: Instead of asking “How do I become successful?”, ask “What’s causing me to fail?”"
-    "The Implementation Gap (执行差距)"
-      "Tiny Consistent Actions (持续的小动作)"
+    Check(Check – Evaluate & Assess<br>检查 – 评估与检视)
+      SystemDesign(System Design<br>系统设计)
+        EnvironmentCreation(Environment Creation<br>环境构建)
+      Relationship(Relationship Dynamics<br>人际关系动态)
+        PeerSelection(Intentional Peer Group Selection<br>有意识地选择同行群体)
 
-  %% 第一层：Check
-  Check(Check – Evaluate & Assess<br>检查 – 评估与检视)
-    "System Design (系统设计)"
-      "Environment Creation (环境构建)"
-    "Relationship Dynamics (人际关系动态)"
-      "Intentional Peer Group Selection (有意识地选择同行群体)"
-
-  %% 第一层：Act
-  Act(Act – Adjust & Internalize<br>行动 – 调整与内化)
-    "The Success Paradox (成功悖论)"
-      "Key Insights (关键洞见)"
-    "Identity-Based Transformation (基于身份的转变)"
-      "Shift in Self-Perception (自我认知转变)"
+    Act(Act – Adjust & Internalize<br>行动 – 调整与内化)
+      SuccessParadox(The Success Paradox<br>成功悖论)
+        KeyInsights(Key Insights<br>关键洞见)
+      IdentityTransformation(Identity-Based Transformation<br>基于身份的转变)
+        SelfPerception(Shift in Self-Perception<br>自我认知转变)
 ```
