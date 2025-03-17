@@ -155,3 +155,18 @@ flowchart LR
     CH --- SA
     CH --- ID
 ```
+
+---
+
+```mermaid
+flowchart LR
+    P(Plan<br/>- Identify what you want to change<br/>- Define the steps you need to take<br/>- Understand the risk of the change<br/>- Predict the results of the change)
+    D(Do<br/>- Implement the changes you have verified<br/>- Update the standard operating procedures<br/>- Ensure everyone’s working to the new standards)
+    C(Check<br/>- Analyze the results of the trial<br/>- Verify that you have improved the process<br/>- Consider implementing it in a broader scale)
+    A(Act<br/>- Implement the changes you have verified<br/>- Update the standard operating procedures<br/>- Ensure everyone’s working to the new standards)
+
+    P --> D
+    D --> C
+    C --> A
+    A --> P
+```
