@@ -311,48 +311,26 @@ mindmap
 ```mermaid
 mindmap
   root((InnerSight))
+    %% 第一层
+    Plan(Plan)
+      %% 第二层
+      MentalModelUpgrade(01 Mental Model Upgrade<br>心智模型升级)
+        %% 第三层
+        ReflectionTools(Reflection Tools<br>反思工具)
+        DeliberateDiscomfort(Deliberate Discomfort<br>主动寻求不适感)
 
-    %% ----------------------------
-    %% 01 Mental Model Upgrade
-    %% ----------------------------
-    Level1A("01 Mental Model Upgrade / 心智模型升级")
-      Level2A1("Reflection Tools / 反思工具")
-        Level3A1a("Inversion / 逆向思维\n\nThink backward from the outcome you want and seek evidence against your current beliefs rather than only confirming them.\n从你期望的结果倒推，寻找反驳当前信念的证据，而不仅仅是确认已有观点。")
-      Level2A2("Deliberate Discomfort / 主动寻求不适感\n\nActively seek experiences that push you out of your comfort zone, challenging your existing mental model.\n主动寻求能让你走出舒适区的体验，挑战你现有的心智模型。")
+    Do(Do)
+      AttentionManagement(02 Attention Management<br>注意力管理)
+      DecisionMaking(03 Decision Making Deconstructed<br>决策解构)
+      ImplementationGap(04 The Implementation Gap<br>执行差距)
 
-    %% ----------------------------
-    %% Do – Implement Strategies
-    %% ----------------------------
-    Level1B("## Do – Implement Strategies / 执行 – 实施策略")
-      Level2B1("### 02 Attention Management / 注意力管理")
-        Level3B1a("Radical Selectivity / 极端专注策略\n\nPractice selective ignorance: Focus on knowing the right things and applying them consistently instead of trying to know everything.\n采用选择性忽略策略：专注于掌握正确的事物并持续应用，而不是试图了解所有信息。")
+    Check(Check)
+      SystemDesign(05 System Design<br>系统设计)
+      Relationship(06 Relationship Dynamics<br>人际关系动态)
 
-      Level2B2("### 03 Decision Making Deconstructed / 决策解构")
-        Level3B2a("Decision Rules & Thought Processes / 决策规则与思维过程\n\nApply the 72-hour rule, second-order thinking, and inversion.\n应用72小时规则、二阶思维和逆向思维。")
-        Level3B2b("Example / 例如\n\nInstead of asking “How do I become successful?”, ask “What’s causing me to fail?”\n不要问“我如何成功？”，而是问“是什么让我失败？”，从而揭示实际障碍而非理论路径。")
-
-      Level2B3("### 04 The Implementation Gap / 执行差距")
-        Level3B3a("Tiny Consistent Actions / 持续的小动作\n\nBridge the gap between knowing and doing: Take small daily actions that compound over time to produce breakthrough insights.\n通过每日持续的小动作弥合“知道”与“行动”之间的差距，这些小动作随着时间累积会带来突破性的洞见。")
-
-    %% ----------------------------
-    %% Check – Evaluate & Assess
-    %% ----------------------------
-    Level1C("## Check – Evaluate & Assess / 检查 – 评估与检视")
-      Level2C1("### 05 System Design / 系统设计")
-        Level3C1a("Environment Creation / 环境构建\n\nDesign systems and environments: Create setups where discipline isn’t constantly required, allowing improvements to naturally integrate into daily life.\n设计一个不需要持续依赖高度自律的系统和环境，使改进能够自然融入日常生活。")
-
-      Level2C2("### 06 Relationship Dynamics / 人际关系动态")
-        Level3C2a("Intentional Peer Group Selection / 有意识地选择同行群体\n\nChoose your relationships carefully: Genuine connections and trusted intuition about people provide the essential feedback and context for your growth.\n谨慎选择你的人际关系，真诚的连接和对人的直觉反馈是你成长过程中不可或缺的支持。")
-
-    %% ----------------------------
-    %% Act – Adjust & Internalize
-    %% ----------------------------
-    Level1D("## Act – Adjust & Internalize / 行动 – 调整与内化")
-      Level2D1("### 07 The Success Paradox / 成功悖论")
-        Level3D1a("Key Insights / 关键洞见\n\n- Recognize that perfectionism can cost opportunities.\n  认识到完美主义可能会错失机会。\n\n- Understand that success often comes from reverse engineering:\n  研究他人成功的经验，提取原则，并根据你的独特情况进行调整。\n\n- Acknowledge the benefits of strategic quitting when necessary.\n  在必要时，承认战略性放弃的深远益处。")
-
-      Level2D2("### 08 Identity-Based Transformation / 基于身份的转变")
-        Level3D2a("Shift in Self-Perception / 自我认知转变\n\nInternalize your change: Instead of stating “I want to write a book,” say “I am a writer,” making the transformation a part of your identity.\n不要说“我想写一本书”，而应内化这种转变，直接说“我是一个作家”，从而使这种转变成为你身份的一部分。")
+    Act(Act)
+      SuccessParadox(07 The Success Paradox<br>成功悖论)
+      IdentityTransformation(08 Identity-Based Transformation<br>基于身份的转变)
 ```
 
 ---
