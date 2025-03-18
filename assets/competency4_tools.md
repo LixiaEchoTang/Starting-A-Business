@@ -20,7 +20,7 @@ Effective market research starts with reliable data. Tools in this section help 
 
 ### 2.1 Secondary Data Sources
 - **Government and Industry Databases:**  
-  - **Statistics Canada** – Provides comprehensive data on demographics, economic indicators, and industry-specific statistics. [Census Profile](https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/prof/index.cfm?Lang=E)
+  - **Statistics Canada** – Provides comprehensive data on demographics, economic indicators, and industry-specific statistics. [Census Profile](https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/prof/index.cfm?Lang=E) [Statistics Canada Data](https://www150.statcan.gc.ca/n1/en/type/data?HPA=1)
   - **NAICS Code Lookup Tools:** Online tools such as the [NAICS Code Link](https://ised-isde.canada.ca/app/ixb/cis/search-recherche?lang=eng) help identify industry classifications.
   - **Business Directories:** Websites like [Canada411](https://www.canada411.ca/) and industry-specific portals offer insights into business landscapes.
 - **Online Publications and Research Reports:**  
